@@ -1,0 +1,111 @@
+.mainContainer{
+    width: 100vw;
+    height: fit-content;
+    background-color: black;
+}
+.subContainer{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timeContainer{
+    color: rgb(233, 233, 233);
+    position: absolute;
+    top: 180px;
+    align-items: center;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto  ;
+    font-size: xx-large;  
+}
+/* to remove glitch due to ms=100 not not having enough width */
+.milliseconds{
+    width: 40px;
+}
+.buttonContainer{
+    position: absolute;
+    top: 180px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+}
+.lap{
+    width:50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 30px;
+    background-color: gray;
+    border-radius: 50px;
+
+}
+.lap:hover{
+    background-color: rgb(90, 89, 89);
+}
+
+.reset{
+    width:50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 30px;
+    background-color: gray;
+    border-radius: 50px;
+
+}
+.reset:hover{
+    background-color: rgb(90, 89, 89);
+}
+.start {
+    width:50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 30px;
+    background-color: rgb(1, 75, 1);
+    color: rgb(32, 201, 32);
+    border-radius: 50px;
+
+}
+.start:hover{
+    background-color: rgb(1, 46, 1);
+}
+.stop{
+    width:50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 30px;
+    background-color: rgb(92, 1, 1);
+    color: rgb(230, 22, 22);
+    border-radius: 50px;
+
+}
+.stop:hover{
+    background-color: rgb(66, 2, 2);
+}
+.lapContainer{
+    width: fit-content;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    align-content: center;
+    font-size: x-large;
+    color: rgb(204, 203, 203);
+    
+}
+
+.lapUl{
+    list-style-type: none;
+}
+.lapUl li{
+margin-bottom: 10px;
+}
+.index{
+    margin-right:50px ;
+}
