@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState} from 'react'
 import './stopwatch.css'
 
 export default function Stopwatch() {
@@ -75,10 +75,6 @@ export default function Stopwatch() {
             <div onClick={stop} className="stop">Stop</div>}   
             
         </div>
-
-        {/* Object.keys(time) gives the the keys of object time in array format */}
-        {/* Object.values(time) gives the the values of object time in array format*/}
-        {/* Object.entires(time) gives the the both keys and values of object time in array format */}
 
            {showLap ? 
                <div className="lapContainer">               
